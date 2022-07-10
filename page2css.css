@@ -1,0 +1,67 @@
+#navbar{
+    text-align:center; 
+}
+#navbar ul{
+    list-style-type: none;
+    font-size:20px;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+    background-color:yellow 
+}
+table{
+    table-layout:fixed;
+    width: 500px;
+    text-align: center;
+}
+th{
+    background-color:yellow ;
+}
+
+td{
+    background-color: pink;
+}
+
+
+#fontsdiv{
+    border: 3px solid red;
+}
+#arialp{
+    font-family:arial;
+    color:hotpink;
+}
+#courierp{
+    font-family:courier;
+    color:pink;
+}
+#corsivap{
+    font-family:Monotype Corsiva;
+    color:lightpink;
+}
+
+#textareadiv textarea{
+    width:50%;
+    height:100px;
+}
+#AOne{
+    width:50%;
+    height:350px;
+}
+
+#imagesdiv{
+    display:flex;
+    justify-content: center;
+    
+}
+#imagesdiv img{ 
+    height: 250px;
+    object-fit: contain;
+}
+#imgone, #imgtwo, #imgthree{
+    border: 2px solid yellow;
+    text-align:center;
+    display:inline-block; 
+    margin: 0 5px;
+}
