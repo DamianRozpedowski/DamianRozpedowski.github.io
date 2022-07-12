@@ -1,0 +1,119 @@
+body{
+    background-image:url(images/photos/bac.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+h1{
+    text-align:center;
+}
+#imgandp{
+    border:3px solid black;
+    background-color:salmon;
+    color:white;
+}
+
+#topleftp p{
+    margin-left:2%;
+}
+
+#overlay{
+    max-width:80%;
+    margin:auto;
+    background-color:aliceblue;
+    padding:10px;
+    border:1px solid black;
+}
+
+footer {
+    text-align:center;
+}
+
+#imgdiv img{
+    width:100%;
+    height:100%;
+    filter: saturate(150%);
+}
+
+#imgdiv p{
+    align-items: center;
+}
+
+#imgdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textbox p{
+    text-align: center;
+}
+.smallbox{
+  height:200px;  
+  flex: 35%;
+  padding: 20px;
+}
+
+figure img{
+    border:2px solid white;
+
+}
+
+table{
+    border:2px solid black;
+}
+.colorrow{
+    background-color:salmon;
+}
+#tickprice{
+    background-color:#fff59d;
+}
+
+#newsfeeddiv p {
+    max-width:90%;
+} 
+
+.articlep{
+    margin-left:2%;
+}
+
+.adchild img{
+    width:60px;
+    height:60px;
+    padding:15px;
+}
+
+.adchild{
+    display:flex;
+    align-items: center;
+    margin-left:2%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-weight:bold;
+  }
+  nav li {
+      display:flex;
+      justify-content: center;
+      display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: salmon;
+    color:white;
+  }

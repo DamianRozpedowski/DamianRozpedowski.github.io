@@ -1,0 +1,85 @@
+
+body{
+    background-image:url(images/photos/bac.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+h1{
+    text-align:center;
+}
+
+footer {
+    text-align:center;
+}
+
+
+#overlay{
+    max-width:80%;
+    margin:auto;
+    background-color:aliceblue;
+    padding:10px;
+    border:1px solid black;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color:salmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: saddlebrown;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-weight:bold;
+  }
+  li {
+      display:flex;
+      justify-content: center;
+      display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: salmon;
+    color:white;
+  }
